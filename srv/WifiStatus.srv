@@ -1,0 +1,7 @@
+### service to query wifi status.
+
+
+---
+int32 bEnable
+string HostIP
+int32 nStrength

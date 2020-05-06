@@ -1,0 +1,23 @@
+### service to control camera ptz.
+
+####### >>> Action Type Mapping
+uint32 CAMERA_RESET         = 0
+uint32 FAST_GO              = 1     
+uint32 EXACT_GO             = 2
+uint32 ADD_APERTURE         = 3
+uint32 DEC_APERTURE         = 4
+uint32 ADD_FOCUS            = 5
+uint32 DEC_FOCUS            = 6
+
+
+####### >>> End of Action Type Mapping
+
+uint32 type # Action type
+
+int32 param_1
+int32 param_2
+int32 param_3
+
+---
+bool success          # True if the call succeeded
+string status_message # Used to give details about success

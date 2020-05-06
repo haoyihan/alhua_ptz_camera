@@ -1,0 +1,7 @@
+### service to query ptz status.
+
+
+---
+int32 nPTZPan
+int32 nPTZTilt
+int32 nPTZZoom
